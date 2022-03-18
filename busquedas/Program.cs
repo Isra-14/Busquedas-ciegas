@@ -13,6 +13,8 @@
 
 using System;
 using System.IO;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace busquedas
 {
@@ -24,24 +26,25 @@ namespace busquedas
             int nodoFinal;
             int profundidad;
 
-            size = 10; // TODO: Leer desde archivo
+            string file = @"C:\Users\rodri\Documents\Tec ITC\8vo Semestre\Sistemas Inteligentes\Busquedas-ciegas\busquedas\grafo.txt";
+            List<string> lines = File.ReadLines(file).ToList();
 
-            if (size != 0) { 
+            size = Int32.Parse(lines[0]);
+            lines.RemoveAt(0);
+
+            if (size != 0) {
                 Grafo g = new Grafo(size);
 
-                g.agregarVertice(0, 1);
-                g.agregarVertice(0, 2);
-                g.agregarVertice(1, 3);
-                g.agregarVertice(2, 4);
-                g.agregarVertice(2, 5);
-                g.agregarVertice(4, 5);
-                g.agregarVertice(3, 6);
-                g.agregarVertice(4, 6);
-                g.agregarVertice(4, 7);
-                g.agregarVertice(7, 8);
-                g.agregarVertice(7, 9);
-                g.agregarVertice(8, 9);
+                int i = 0;
+                foreach (string line in lines) {
+                    string[] temp = line.Split(' ');
+                    int n1 = Int32.Parse(temp[0]);
+                    int n2 = Int32.Parse(temp[1]);
 
+                    g.agregarVertice(n1, n2);
+
+                    i++;
+                }
 
                 Console.WriteLine("Ingresa el nodo de inicio: ");
                 nodoInicio = Convert.ToInt32(Console.ReadLine());
