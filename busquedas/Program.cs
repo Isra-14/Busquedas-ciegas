@@ -40,6 +40,9 @@ namespace busquedas
             Console.Write("\nDepth First Search (DFS)\n");
             recorrido.DFS(0, g.getAdj());
 
+            Console.Write("\nDepth Limited Search (DLS)\n");
+            recorrido.DLS(0, g.getAdj(), 0);
+
             Console.ReadLine();
         }
     }

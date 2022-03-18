@@ -61,5 +61,26 @@ namespace busquedas
 
             DFSHelper(inicio, isVisited, _adj);
         }
+
+        void DLSHelper(int inicio, bool[] isVisited, LinkedList<int>[] _adj, int limite) {
+            isVisited[inicio] = true;       // Se marca que este nodo ya se visitó.
+            Console.Write(inicio + " ");    // Indicamos que nodo fue el que se visito.
+
+            if (limite != 0){
+                // Verficamos si existen vertices en el nodo actual
+                if (_adj[inicio] != null)
+                {
+                    foreach (var elemento in _adj[inicio]) // Pasamos por los nodos adyacentes
+                        if (!isVisited[elemento])
+                            DLSHelper(elemento, isVisited, _adj, limite - 1); // Hacemos una llamada recursiva a la funcion
+                }
+            }
+        }
+
+        public void DLS(int inicio, LinkedList<int>[] _adj, int limite) {
+            bool[] isVisited = new bool[_v];    // Inicializamos el arreglo de visitados con el tamaño del grafo
+
+            DLSHelper(inicio, isVisited, _adj, limite);
+        }
     }
 }
