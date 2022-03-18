@@ -1,0 +1,16 @@
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\bin\Debug\net5.0\busquedas.exe
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\bin\Debug\net5.0\busquedas.deps.json
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\bin\Debug\net5.0\busquedas.runtimeconfig.json
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\bin\Debug\net5.0\busquedas.runtimeconfig.dev.json
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\bin\Debug\net5.0\busquedas.dll
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\bin\Debug\net5.0\ref\busquedas.dll
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\bin\Debug\net5.0\busquedas.pdb
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.csproj.AssemblyReference.cache
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.AssemblyInfoInputs.cache
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.AssemblyInfo.cs
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.csproj.CoreCompileInputs.cache
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.dll
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\ref\busquedas.dll
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.pdb
+C:\Users\ISHis\OneDrive\Documentos\ITESM\Semestre 8\Sistemas Inteligentes\Programas\busquedas\busquedas\obj\Debug\net5.0\busquedas.genruntimeconfig.cache

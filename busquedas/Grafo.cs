@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace busquedas{
     class Grafo {
-        private int _v; // Representa el numero de vertices.
+        private int _v; // Representa el numero de nodos.
         private LinkedList<int>[] _adj; // Lista de adyacencia
 
                                 // Constructor
