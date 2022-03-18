@@ -32,16 +32,25 @@ namespace busquedas
             g.agregarVertice(7, 9);
             g.agregarVertice(8, 9);
 
+            Recorridos recorrido = new Recorridos(g.getSize());
 
             Console.Write("Breadth First Search (BFS)\n");
-            Recorridos recorrido = new Recorridos(g.getSize());
-            recorrido.BFS(2, g.getAdj());
+            recorrido.BFS(0, g.getAdj());
 
-            Console.Write("\nDepth First Search (DFS)\n");
+            Console.Write("Depth First Search (DFS)\n");
             recorrido.DFS(0, g.getAdj());
 
-            Console.Write("\nDepth Limited Search (DLS)\n");
-            recorrido.DLS(0, g.getAdj(), 0);
+            Console.Write("Depth Limited Search (DLS)\n");
+            recorrido.DLS(0, g.getAdj(), 2);
+
+            Console.Write("Breadth First Search Con busqueda (BFS)\n");
+            recorrido.BFS(2, 5, g.getAdj());
+
+            Console.Write("Depth First Search Con busqueda (DFS)\n");
+            recorrido.DFS(0, 4, g.getAdj());
+
+            Console.Write("Depth Limited Search Con busqueda (DLS)\n");
+            recorrido.DLS(0, 4, g.getAdj(), 1);
 
             Console.ReadLine();
         }
