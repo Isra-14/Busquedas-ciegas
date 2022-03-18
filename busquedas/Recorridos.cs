@@ -76,7 +76,7 @@ namespace busquedas
                             break;
                         }
                         if (!isVisited[elemento])
-                            DLSHelper(elemento, isVisited, _adj, limite - 1); // Hacemos una llamada recursiva a la funcion
+                            DLSHelper(elemento, busqueda ,isVisited, _adj, limite - 1); // Hacemos una llamada recursiva a la funcion
                     }
                 }
             }

@@ -26,7 +26,7 @@ namespace busquedas
             int nodoFinal;
             int profundidad;
 
-            string file = @"C:\Users\rodri\Documents\Tec ITC\8vo Semestre\Sistemas Inteligentes\Busquedas-ciegas\busquedas\grafo.txt";
+            string file = @"../../../grafo.txt";
             List<string> lines = File.ReadLines(file).ToList();
 
             size = Int32.Parse(lines[0]);

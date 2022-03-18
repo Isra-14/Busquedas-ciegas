@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodri\\Documents\\Tec ITC\\8vo Semestre\\Sistemas Inteligentes\\Busquedas-ciegas\\busquedas\\busquedas.csproj": {}
+    "C:\\Users\\ISHis\\OneDrive\\Documentos\\ITESM\\Semestre 8\\Sistemas Inteligentes\\Programas\\busquedas\\Busquedas-ciegas\\busquedas\\busquedas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodri\\Documents\\Tec ITC\\8vo Semestre\\Sistemas Inteligentes\\Busquedas-ciegas\\busquedas\\busquedas.csproj": {
+    "C:\\Users\\ISHis\\OneDrive\\Documentos\\ITESM\\Semestre 8\\Sistemas Inteligentes\\Programas\\busquedas\\Busquedas-ciegas\\busquedas\\busquedas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri\\Documents\\Tec ITC\\8vo Semestre\\Sistemas Inteligentes\\Busquedas-ciegas\\busquedas\\busquedas.csproj",
+        "projectUniqueName": "C:\\Users\\ISHis\\OneDrive\\Documentos\\ITESM\\Semestre 8\\Sistemas Inteligentes\\Programas\\busquedas\\Busquedas-ciegas\\busquedas\\busquedas.csproj",
         "projectName": "busquedas",
-        "projectPath": "C:\\Users\\rodri\\Documents\\Tec ITC\\8vo Semestre\\Sistemas Inteligentes\\Busquedas-ciegas\\busquedas\\busquedas.csproj",
-        "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri\\Documents\\Tec ITC\\8vo Semestre\\Sistemas Inteligentes\\Busquedas-ciegas\\busquedas\\obj\\",
+        "projectPath": "C:\\Users\\ISHis\\OneDrive\\Documentos\\ITESM\\Semestre 8\\Sistemas Inteligentes\\Programas\\busquedas\\Busquedas-ciegas\\busquedas\\busquedas.csproj",
+        "packagesPath": "C:\\Users\\ISHis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISHis\\OneDrive\\Documentos\\ITESM\\Semestre 8\\Sistemas Inteligentes\\Programas\\busquedas\\Busquedas-ciegas\\busquedas\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISHis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
